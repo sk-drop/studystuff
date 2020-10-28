@@ -1,0 +1,230 @@
+1. Beobachtung
+2. Theorie
+3. Hypothesenbildung
+4. Datensammlung
+5. Datenanalyse
+
+
+## Empirische Forschung (am Bsp. Big Brother):
+
+1. Beobachtung:
+
+- subjektive Wahrnehmung der Welt 
+
+(Big Brother Teilnehmer haben eine narzisstische 
+Persönlichkeitsstörung)
+
+- auf Basis von Beobachtung werden Theorien gebildet
+
+2. Theorie:
+
+- Versuch einer Erklärung einer Beobachtung
+- Eine Beobachtung kann mehrere Theorien hervorrufen 
+
+(Personen mit Narzissmus bewerben sich mit erhöhter 
+Wahrscheinlichkeit bei Big Brother/
+Produzenten wählen mit erhöhter Wahrscheinlichkeit Personen 
+mit narzisstischer Persönlichkeitsstörung)
+
+- Wissenschaftliche Theorien sollten sich anhand empirisch 
+wiederlegbarer Hypothesen bestätigen, falsifizieren oder 
+abweisen lassen 
+
+3. Hypothesenbildung
+
+- Vorhersage auf Basis der Theorie
+- empirisch wiederlegbar 
+
+(Personen mit Narzissmus bewerben sich mit erhöhter 
+Wahrscheinlichkeit bei Big Brother 
+-> Der Anteil derer mit narzisstischer Persönlichkeitsstörung 
+ist höher bei den BewerberInnen bei Big Brother als bei 
+der generellen Öffentlichkeit)
+
+- Hypothesen können folgende Formen annehmen:
+    + gerichtet (besser, schlechter, größer, kleiner)
+    + ungerichtet (abweichend, anders, verändert) 
+
+//////////////////////////////////////////////////////////////////////////
+
+Variablenidentifikation 
+
+- können konstant oder variabel sein 
+- Statistik arbeitet idR mit Variablen
+- Variable enthalten konkrete Messwerte
+
+- Hypothesen bestehen oft aus 2 Variablen 
+
+    + Ursache -> Wirkung 
+    + Unabhängige Variable -> Abhänigige Variable 
+    + Coca Cola -> Tote Spermien 
+
+- Falls Kausalzusammenhang nicht gegeben 
+
+    + Prädiktor (predictor) -> Ergebnis (outcome)
+
+- Variablen könne stetig oder diskret sein
+
+    + (continouus and discrete)  
+    + vergl. Int und Float
+    + Alter ist stetig (cont.) aber jede Altersangabe ist diskret
+    + stetig, wenn es weiter zerlegbar ist
+
+
+Skalierungen
+
+- Kategorische Skalierung 
+
+    + Binär & Nominal 
+        * jede Beobachtung einer Merkmalsausprägung wird 
+        genau einer bestimmten Klasse (Kategorie) zugeordnet
+        * Klassen können nicht geordnet sondern nur
+        unterschieden werden 
+        * Bsp. Binär: 2 Kategorien (Biologisches Geschlecht)
+        * Bsp. Nominal: Lieblings Apfelsorte
+    + Ordinal 
+        * Platzierungen, Güteklassen, Ratingskalen
+        * Präferenzstruktur (sinnvolles Ordnen der Beobachtung möglich)
+        * Unterschiede zwischen den Klassen nicht vergleichbar
+        * Abstände der Werte ohne Informationswert / nicht analysierbar
+        * wenn Klassen, dann üblicherweise durch natürliche Zahlen 
+
+- Numerische Skalierung
+
+    + Intervall
+        * physikalische Größen wie Temperatur in Grad Celsius 
+        * Abstände zwischen den Werten der Skale besitzen eine Bedeutung
+        Berechung von Differenzen sinnvoll
+        * kein absoluter Nullpunkt, deshalb z.B. Aussage: 
+        "20 Grad Celsius sind doppelt so warm wie 10 Grad Celsius" 
+        ist unsinnig
+    + Absolut / Verhältnis 
+        * wie Intervallskala, aber mit absolutem Nullpunkt
+        * Bsp.: Grad Kelvin, Körpergröße, Häufigkeit eines Wortes
+
+////////////////////////////////////////////////////////////////////////
+
+4. Datensammlung
+
+- Korrelation 
+
+    + ohne Manipulation der Variablen 
+    + passive Beobachtung
+    + mit Variablenwerten beschriebener Ausschnitt aus Raum und Zeit
+
+- Experiment 
+
+    + gezielte Manipulation von Prädiktoren
+    + Messung des Einflusses auf Ergebnis
+        * Bsp. positive oder negative Folge auf Aktion
+
+    + Systematische Variation:
+        * Beabsichtigte Änderungen und daraus folgenden Effekte
+
+    + Unsystematische Variation:
+        * Alles andere (Meta-Lerneffekte, Langeweile)
+
+    + Randomisierung hilft, unbeabsichtigte Effekte zu vermeiden
+
+- Vorsicht vor Drittvariablen 
+
+    + Augenscheinliche Korrelationen können durch unbemerkte 
+    dritte Variablen ausgelöst werden
+    + Korrelation zwischen Brustvergörßerung und Selbstmord
+        * vermutete Drittvariable: geringes Selbstwertgefühl
+
+- Variablenmessung
+
+    + handwerkliche Fehlerquelle
+    + Qualität der Messung folgt aus des gewählten Messgerätes
+    + Korrektheit
+        * wird der Wert korrekt gemessen?
+    + Verlässlichkeit 
+        * Erzeugt das Messgerät dieselben Werte in denselben Situationen 
+        
+-----------------------------------------------------------------------
+
+Ausflug Korrelation und Kausalität 
+
+David Hume:
+1. Ursache und Wirkung müssen zeitlich nah sein 
+2. Ursache vor Wirkung
+3. Wirkung sollte nicht ohne Ursache auftreten
+
+- Korrelation
+    + Kausalität kann nicht festgestellt werden
+    + Phänomene und Effekte korrelieren nur
+    + unbekannt was Prädiktor und Ergebnis ist
+
+- Experiment 
+    + Kausalität wird untersucht
+    + Prädiktor wird anhand Hypothese bestimmt und variiert
+    + Änderung des Ergebnis nach Variation des Prädiktors
+    kann Kausalzusammenhang bedeuten
+
+-> Kausalität wird durch Datensammlung bestimmt und ist 
+nicht mathematisch berechenbar
+
+-----------------------------------------------------------------------
+
+5. Datenanalyse 
+
+
+5.1 Datenexploration
+
+    - Häufigkeitsverteilung
+
+        + erst sinnvoll ab ordinalskalierten Daten
+        + Standardfall Normalverteilung
+            * Masse Zentrum, Einzelwerte am Rand
+        + abweichende Normalverteilung 
+            * Verschiebung (skew) = links(head) / rechts(tail)
+            * Wölbung (kurtosis) = spitz (positiv, leptokurtisch) /
+            flach (negativ, platykurtisch)
+
+    - Grundlegende statistische Maße
+
+        + Modalwert (häufigster Wert (mehrere möglich))
+        + Mittelwert (Durchschnitt der Werte)
+            * anfällig gegnüber Extremwerten 
+        + Median (Wert in der Mitte)
+            * Ober und Untermedian bei geraden Mengen
+            * robust gegenüber extremwerten (wird ignoriert)
+        + Erwartungswert 
+            * Mittel aller möglichen Ausprägungen
+            * Summer aller Ausprägungen durch die Anzahl aller Ausprägungen
+
+    - Streuung 
+
+        + Range R = x_max - x_min
+            * sehr anfällig für Extremwerte
+        + R_m = m Werte von beiden Extremen abschneiden 
+        + Interquartilsabstand / Interquartile Range 
+            * lower quartile: 25%
+            * upper quartile: 75% 
+        + Achtung: Informationsverlust
+
+
+5.2 Modellbildung 
+
+    - Experimentelle Hypothese H_1 = ursprüngliche Hypothese
+
+        + Der Anteil derer mit narzisstischer Persönlichkeitsstörung 
+        ist höher bei den BewerberInnen bei Big Brother als bei 
+        der generellen Öffentlichkeit (1%)
+
+    - Nullhypothese H_0 = Verneinung von H_1
+
+        + Der Anteil derer mit narzisstischer Persönlichkeitsstörung 
+        ist kleiner/gleich bei den BewerberInnen bei Big Brother als bei 
+        der generellen Öffentlichkeit (1%)
+
+    - Binärentscheidung möglich zwischen H_0 mit Wahrscheinlichkeit p
+    oder H_1 mit Gegenwahrscheinlichkeit 1 - p
+    
+        
+
+
+
+
+

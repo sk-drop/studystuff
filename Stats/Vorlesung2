@@ -1,0 +1,116 @@
+1. Statistische Modelle
+2. Sampling
+3. Mittlewert als Modell
+4. Standardfehler
+5. Konfidenzintervalle
+6. Testen
+
+
+1. Modellbildung
+    + Phänomene meistens nicht anhand der Realität erforschbar
+        * Aufwand
+        * Störfaktoren/Variablenisolierung
+        * Wiederholbarkeit 
+    + meist Forschung anhand von Auszügen der Realität (Modelle)
+    + Fitting eines Modells = Übertragbarkeit auf Realität 
+        * schlechtes Fitting führt zu fehlerhaften und gefährlichen Schlüssen
+        * zu genaues Fitting (Overfitting) führt zur Fehlschlüssen und
+        mangelnder Wiederholbarkeit 
+
+2. Stichprobenbildung/Sampling
+    + Population = Grundgesamtheit
+    + Stichprobe (Sample) = Ausschnitt aus Population
+    + Stichprobenverteilung (Sampling Distribution) = 
+        Verteilung über alle Stichproben
+    + n = Stichprobengröße, N = Populationsgröße, 
+    n_group = Gruppengröße
+    + Forschungsarbeit anhand Sample, anschließend (meist induktiver)
+    Schluss auf gesamte Gruppe
+    + Je größer das Sample, desto wahrscheinlicher ist ein guter Fit
+        * Gesetz der großen Zahlen
+    + Zusammensetzung des Samplses von Experiment abhängig
+        * für die Hypothese identifizierte Variablen sollten vorhanden sein
+        * weiter Varianten sollten random-ish auftreten
+
+3. Mittlewert als Modell
+    + arithmetisches Mittel = Summe/Anzahl
+    + Abweichung = Wert - Mittelwert
+    + Abweichungen addieren = 0
+        * deswegen quadrieren SS = Summe(Abweichung^2)
+        * Problem: steigt mit Stichprobengröße
+            # deswegen mit Samplesize normalisieren
+    + Varianz s^2 = Summe(Abweichung^2) / (Stichprobengröße -1)
+    + Standardabweichung s = Wurzel(s^2)
+    + Ergebnis = Modell + Fehler 
+    + s und s^2 beschreiben beispw. das Ausmaß in dem der mean 
+    von den Daten der Stichprobe abweicht
+
+4. Standardfehler
+    + Stichprobenvarianz: Modell liefert andere Ergebnisse für andere Samples
+    + Ergebnisse unterliegen einer Häufigkeitsverteilung
+    + für n > 30 folgt mean einer Normalverteilung
+    + Standardfehler für alle möglichen Samples ist nicht berechenbar
+        * Abschätzung von Stichprobe auf Stichprobenverteilung
+    
+    + Central Limit Theorem
+        * if n > 30: Standardfehler = Standardabweichung/Wurzel(Samplesize)
+        * Stichprobenverteilung ist tendenziell normalverteilt
+
+5. Konfidenzintervalle
+    + pro Stichprobe 1
+    + Ausflug z-Score
+        * Normalverteilungerlaubt Abschätzung der Wahrscheinlichkeit 
+        des Auftretens von Werten
+        * z-Score "transformiert" Werte zu entsprechender Normalverteilung
+        * z = (Wert - Mittelwert) / Standardabweichung
+        * sagt uns wie wahrscheinlich ein Wert in das Sample passt
+    + jedes Sample hat ein Konfidenzintervall bezogen auf ein Modell
+    + Höhe vorher festgelegt
+        * meist 95%
+    + Konfidenzintervalle von 95% der Samples enthalten 
+    den wahren Wert der Population
+    + Berechnung für 95%:
+        * Untergrenze = Mittelwert - (1.96*Standardabweichung)
+        * Obergrenze = Mittelwert + (1.96*Standardabweichung)
+    + bei n < 30 lieber t-Score mit n-1 
+
+6. Testen 
+    + Teststatistik (grob) = (Varianzerklärt durch Modell = x) / -x
+    + auch Prüfgröße, Testgröße oder Prüffunktion
+    + Teststatistiken messen, wie gut das Modell zu den Daten passt
+    + One Tailed Tests: gerichtete Hypothesen (5% Wahrscheinlichkeit)
+    + Two Tailed Tests: ungerichtete Hypothesen (je 2.5% Wahrscheinlichkeit)
+
+    + Typ1 und Typ2 Fehler
+        * Fehler erster Art:
+            # Effekt fälschlicherweise bestätigt
+            # alpha-level
+            # bspw. 5% akzeptabel
+        * Fehler zweiter Art:
+            # Effekt fälschlicherweise übersehen
+            # beta-level
+            # bis 20% akzeptabel
+        * indirekt proportionaler Zusammenhang vorhanden, aber nicht 
+        genau bestimmbar
+
+    + Effektstärke
+        * Standartisierte Maße für Einfluss einzelner Variablen auf andere
+        * Pearson's r Korrelationskoeffizient
+            # 0.1 Schwach
+            # 0.3 Mittel
+            # 0.5 Stark
+        * Cohens d
+        * Quotenverhältnis (Odds Ratio)
+
+
+
+
+
+
+
+
+
+
+
+
+
