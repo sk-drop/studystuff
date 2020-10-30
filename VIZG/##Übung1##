@@ -2,7 +2,6 @@
 
 - Ideen für VIZG:
 
-// IT
 
 +Teambuilding-Plattform+
 
@@ -22,19 +21,12 @@ Shop erscheinen.
 Facebook?
 
 
-+Overlay Delivery+
-
-[Web/App-Design]
-(Standalone/Plug-In)
-Netzwerk für Lieferando, Lieferheld, co.
-
-
 +Mobile Machine-Learning Annotation+
 
 [App-Design]
 (Standalone)
 Mobile Auftragsentgegennahme für Annotationsaufgaben,
-Labeling und ähnliche ML Aufgaben, die nicht von KIs
+Datadelivery und ähnliche ML Aufgaben, die nicht von KIs
 übernommen werden können.
 
 
@@ -47,8 +39,13 @@ und basierend darauf einen Haushaltsplan aufzustellen,
 Vorschläge für mögliche Gerichte zu bekommen und 
 ihre Nahrungsausgaben zu verwalten.
 
+Könnte mit einem kleinen Barcodescanner mit Klebestreifen auf der Rückseite
+als stationärer Scanner in Küche montiert werden.
+
 
 + Meinungsbildungs-Plattform +
+
+
 
 [Web/App-Design + Philosophie]
 (Standalone)
@@ -59,6 +56,12 @@ Plattform für den argumentativen Austausch zu allen möglichen sozio-politische
 *** Factchecking KI für die Erkennung und Bestätigung von Fakten durch den Vergleich 
 mit validen Quellen (oder Bestätigung durch kommentierenden Nutzer)
 *** Datenschutz von politischen Einstellungen und religiösen Ansichten 
+
++ Microsoft Teams für Schulen/Unis +
+
+[Web/App-Design + PR]
+(Standalone)
+
 
 
 
